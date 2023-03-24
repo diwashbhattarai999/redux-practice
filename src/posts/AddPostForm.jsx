@@ -44,7 +44,7 @@ const AddPostForm = () => {
           value={content}
           onChange={onContentChanged}
         />
-        <button type="button" onClick={handleSavePost}>
+        <button type="button" className="btn" onClick={handleSavePost}>
           Save Post
         </button>
       </form>
